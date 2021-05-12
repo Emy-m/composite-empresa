@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 public class EmpresaTest {
 	@Test
-	public void montoEmpresaTest() {
+	public void montoTotalSalarialTest() {
 		Empresa empresa = new Empresa("Laser X");
 
 		Director director = new Director(100);
